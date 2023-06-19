@@ -7,9 +7,9 @@ test:
   image: golang:1.17
   script: 
    - go test .
-#  rules:
-#    changes:
-#      - *.go
+  rules:
+    changes:
+      - *.go
 
 build:
   stage: build
