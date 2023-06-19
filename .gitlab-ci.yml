@@ -10,10 +10,6 @@ test:
   rules:
     changes:
       - "**/*.go"
-<<<<<<< HEAD
-=======
-
->>>>>>> c3dc910262120db10d645dc9982979b66faed3c3
 build:
   stage: build
   needs: []
