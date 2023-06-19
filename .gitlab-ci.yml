@@ -5,11 +5,11 @@ stages:
 test:
   stage: test
   image: golang:1.17
-  script: 
-   - go test .
   rules:
     changes:
       - "**/*.go"
+  script: 
+   - go test .
 build:
   stage: build
   needs: []
